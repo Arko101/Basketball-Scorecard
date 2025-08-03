@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #1b2450;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.team {
+    text-align: center;
+}
+
+h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.score-box {
+    background-color: black;
+    width: 120px;
+    height: 100px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 72px;
+    color: #ff4d6d;
+    font-family: 'Digital-7';
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: default;
+}
